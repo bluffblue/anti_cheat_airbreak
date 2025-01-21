@@ -1,0 +1,15 @@
+site: ""
+user: bluffblue
+repo: anti_cheat_airbreak
+tag: 0.0.1
+entry: test.pwn
+output: test.amx
+dependencies:
+    - Southclaws/samp-stdlib:0.3.7-R2-2-1
+    - pawn-lang/sa-mp-fixes:0.3.7
+    - urShadow/Pawn.RakNet:1.2.0
+local: true
+runtime:
+    version: openmp
+    mode: server
+    plugins: [PawnRakNet]
