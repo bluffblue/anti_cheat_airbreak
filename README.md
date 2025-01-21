@@ -103,6 +103,9 @@ sampctl package build
 3. The system will automatically monitor all players
 4. Detected cheaters will be automatically kicked
 
+## note
+There are several shortcomings in this include, one of which is that if an admin performs a teleport, they will be detected as using airbreak. You may further develop it on your own if you wish
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
